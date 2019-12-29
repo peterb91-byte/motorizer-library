@@ -1,0 +1,9 @@
+Motorizer	KEYWORD1
+leftForward	KEYWORD2
+leftBackward	KEYWORD2
+leftStop	KEYWORD2
+rightForward	KEYWORD2
+rightBackward	KEYWORD2
+rightStop	KEYWORD2
+motorize	KEYWORD2
+begin		KEYWORD2
