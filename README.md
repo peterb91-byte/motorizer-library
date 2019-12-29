@@ -10,25 +10,25 @@ In time I will upload both the schematic, gerber file and the slave code so anyo
 
 ##  How to use this library.
 
-## Include the library using.
+#### Include the library using.
 ```
 #include<Mototrizer.h>
 ```
 
-Initialise a Motorizer board with.
+#### Initialise a Motorizer board with.
 ```
 Motorizer motor;
 Motoroizer dave;
 ect... 
 ```
 
-In the setup.
+#### In the setup.
 ```
 motor.begin(0x11); //insert the relevant I2C address in the brackets.
 dave.begin(0x22); 
 ```
 
-Left motor comands.
+#### Left motor comands.
 ```
 motor.leftStop();// this comand stops the left motor.
 motor.leftForward(255);// this comand makes the left motor turn forwards at max speed 
@@ -37,14 +37,14 @@ motor.leftBackward(127);// this comand makes the left motor turn backwards at ha
 (will also accept int var up to 255).
 ```
 
-Right motor comands.
+#### Right motor comands.
 ```
 motor.rightStop();
 motor.rightForward(127);
 motor.rightBackward(255);
 ```
 
-Common comands.
+#### Common comands.
 ```
 motor.motorize();// this comand needs to be the last comand after any of the above,
 its job is to actually send the instructions to the motorizer board and to make the motors turn.
