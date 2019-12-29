@@ -18,7 +18,7 @@ In time I will upload both the schematic, gerber file and the slave code so anyo
 #### Initialise a Motorizer board with.
 ```
 Motorizer motor;
-Motoroizer dave;
+Motorizer dave;
 ect... 
 ```
 
