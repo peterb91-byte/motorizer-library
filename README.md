@@ -12,7 +12,7 @@ In time I will upload both the schematic, gerber file and the slave code so anyo
 
 #### Include the library using.
 ```
-#include<Mototrizer.h>
+#include<Motorizer.h>
 ```
 
 #### Initialise a Motorizer board with.
